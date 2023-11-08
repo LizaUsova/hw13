@@ -174,7 +174,6 @@ header:after {
     background-image: url("../assets/img/entry.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
 }
 
 .offers, .recently {
@@ -253,9 +252,9 @@ header:after {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    min-width: 525px;
+    min-width: calc(100%/2 - 15px);
     background-color: #F13C6E;
-    padding: 35px 45px 35px 40px;
+    padding: 35px 34px 35px 40px;
     gap: 30px;
 }
 
