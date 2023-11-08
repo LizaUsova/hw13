@@ -173,6 +173,7 @@ header:after {
 .entry__image {
     background-image: url("../assets/img/entry.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
 }
 
